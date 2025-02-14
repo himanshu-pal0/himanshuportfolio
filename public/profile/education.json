@@ -1,0 +1,21 @@
+{
+    "education":[
+        {
+            "title": "Jun 2021 - May 2024",
+            "cardTitle": "Bachelor of Computer Applications (BCA)",
+            "cardSubtitle":"Saraswati Institute of Engineering & Technology - Hapur",
+            "icon" : {
+                "src": "images/education/logo.jpg"
+            }
+        },
+
+        {
+            "title": "Jun 2017 - May 2020",
+            "cardTitle": "Diploma In Computer Applications",
+            "cardSubtitle":"Ingraham Institute - Ghaziabad",
+            "icon" : {
+                "src": "images/education/logo.jpg"
+            }
+        }
+    ]
+}

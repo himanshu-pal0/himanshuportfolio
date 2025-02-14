@@ -1,0 +1,150 @@
+{
+    "projects" : [
+        {
+            "image" : "images/projects/portfolio-poster.png",
+            "title": "PoornaSatya",
+            "bodyText": "Explore Comprehensive Nutrition, Ingredients and Comparisons for Every Product You Love.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://himanshupal-portfolio.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Portfolio",
+                "JavaScript"
+            ]
+        },
+        {
+            "image" : "images/projects/flapchat_poster.png",
+            "title": "Flap Chat",
+            "bodyText": "- It's a social media app like chat,voice,video call. Technology-React-Native.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://uxdlab.us/flapchat-app/"
+                }
+            ],
+            "tags" : [
+                "React-Native",
+                "JavaScript",
+                "TypeScript",
+                "ConnectyCube",
+                "JSON",
+                "Android",
+                "IOS"
+            ]
+        },
+        {
+            "image" : "images/projects/live_stage_poster.png",
+            "title": "Staffline Pro",
+            "bodyText": "StafflinePro™ transforms recruitment with an intuitive platform that elevates your hiring process. ",
+            "links": [
+                {
+                    "text": "Web",
+                    "href": "https://stafflinepro.com/"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.stafflinepro"
+                }
+            ],
+           "tags" : [
+                "React-Native",
+                "React",
+                "JavaScript",
+                "TypeScript",
+                "JSON",
+                "Android",
+                "IOS"
+            ]
+        },
+        {
+            "image" : "images/projects/therachat_poster.png",
+            "title": "Jobletics Pro",
+            "bodyText": "obleticsPro has Food Service, Hospitality, and Environmental Service staff available at a moments notice.  We recruit everyday, all year experienced staff. We do all the screening for you so you don't have to.",
+            "links": [
+                {
+                    "text": "Web",
+                    "href": "https://www.jobletics.com/"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.jobleticspro"
+                }
+            ],
+            "tags" : [
+                "React-Native",
+                "React",
+                "JavaScript",
+                "TypeScript",
+                "JSON",
+                "Android",
+                "IOS"
+            ]
+        },
+        {
+            "image" : "images/projects/mprofit_poster.png",
+            "title": "Centuryply Guru",
+            "bodyText": "Application provide functionality like Attendance Capture , Visit Execution of Grid, Dealer , Influencer , Retailer , Leads . Lead Creation , Task Creation , and also Sales performance of user.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.centuryply"
+                }
+            ],
+            "tags" : [
+                "React-Native",
+                "React",
+                "Node",
+                "JavaScript",
+                "TypeScript",
+                "JSON",
+                "Android",
+                "IOS"
+            ]
+        },
+        {
+            "image" : "images/projects/mlsu_poster.png",
+            "title": "BluWheelz",
+            "bodyText": "BluWheelz is an EV as a service mobile app, there primary focus is to track the driver, vehicle and provide details to a supervisor and hub managers to availalbity, location and status of his team’s.",
+            "links": [
+                {
+                    "text": "Web",
+                    "href": "https://bluwheelz.co.in/"
+                },
+                {
+                    "text": "Live",
+                    "href": " https://play.google.com/store/apps/details?id=com.bluewheelz&hl=en"
+                }
+            ],
+           "tags" : [
+                "React-Native",
+                "React",
+                "JavaScript",
+                "TypeScript",
+                "JSON",
+                "Android",
+                "IOS"
+            ]
+        },
+        {
+            "image" : "images/projects/adblue4you_poster.png",
+            "title": "NemaClub+",
+            "bodyText": "This platform is a comprehensive super-app that combines social engagement and healthcare services tailored specifically for mature adults",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.jc.nema_club_plus&hl=en"
+                }
+            ],
+            "tags" : [
+                "Flutter",
+                "JavaScript",
+                "JSON"
+            ]
+        }
+        
+    ]
+}

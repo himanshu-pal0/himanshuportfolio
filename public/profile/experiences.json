@@ -1,0 +1,33 @@
+{
+    "experiences": [
+        {
+            "title": "Software Developer",
+            "subtitle": "Jcentrix Pvt Ltd",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Proficient in both Android and React Native frameworks, demonstrating a deep understanding of their architectures and created various Mobile Apps like Universities, tracking attendance system."
+            ],
+            "dateText": "03/2023 – Present"
+        },
+        {
+            "title": "Jr. Software Developer",
+            "subtitle": "Compunnel Digital",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Working as a Hybrid Developer employee with the organization. Achieve dedicated projects with the company and communicate with the client directly on project basis.",
+                "Completing the CR points from various clients & provide weekly updates to increase the engagement and long term of the project."
+            ],
+            "dateText": "06/2022 – 01/2023"
+        },
+        {
+            "title": "Fronted Developer",
+            "subtitle": "Uxdlab Software Pvt ltd.",
+            "workType": "Full-Time",
+            "workDescription": [
+                "Proficient in both Android and React Native frameworks, demonstrating a deep understanding of their architectures and created various Mobile Apps like Chat,Social,E-commerce.",
+                "Adept at identifying and resolving complex technical challenges, ensuring smooth and efficient application development."
+            ],
+            "dateText": "11/2020 – 06/20222"
+        }
+    ]
+}
