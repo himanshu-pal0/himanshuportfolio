@@ -1,0 +1,1 @@
+import{a as e}from"./rolldown-runtime-BWaJ3C7D.js";import{n as t,t as n}from"./jsx-runtime-CkcEAIm1.js";import{r}from"./index-BChXCDTA.js";t();var i=e(r(),1),a=e(n(),1);function o(e){let{title:t}=e;return(0,a.jsx)(`div`,{className:`header`,children:t})}o.propTypes={title:i.default.string.isRequired};export{o as default};

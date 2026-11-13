@@ -1,0 +1,41 @@
+{
+    "experiences": [
+        {
+            "title": "Software Engineer",
+            "subtitle": "Markup Design Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed and maintained scalable cross-platform mobile applications using React Native and Typescript for iOS and Android. ",
+                "Improved application performance by optimizing component rendering using React.memo, use Callback, and useMemo. ",
+                "Integrated Firebase Cloud Messaging (FCM), third-party SDKs, and APIs to support production application features. ",
+                "Diagnosed and resolved production issues and supported application releases on Google Play Store and Apple App Store."
+            ],
+            "dateText": "02/2025 – 02/2026"
+        },
+        {
+            "title": "Frontend Engineer",
+            "subtitle": "Jcentrix Pvt Ltd",
+            "workType": "Full Time",
+            "workDescription": [
+                "Developed and maintained 5+ scalable React Native and Flutter applications using TypeScript. ",
+                "Developed real-time EV fleet tracking functionality for 500+ drivers, reducing supervisor response time by 40%. ",
+                "Collaborated with product, design, backend, and QA teams in an Agile/Scrum environment.",
+                "Debugged and resolved production issues using Flipper, improving application stability and reliability.",
+                "Developed and maintained Android TV applications using React Native, including platform-specific navigation and performance improvements."
+            ],
+            "dateText": "03/2023 – 12/2024"
+        },
+        {
+            "title": "Frontend Developer",
+            "subtitle": "UXDLAB Pvt Ltd",
+            "workType": "Full Time",
+            "workDescription": [
+               "Developed responsive web applications using HTML, CSS, and JavaScript.",
+               "Built mobile application screens and integrated backend REST APIs.",
+               "Developed reusable UI components and improved application usability and performance.",
+               "Built an OTT platform with integrated video playback functionality."
+            ],
+            "dateText": "11/2020 – 01/2023"
+        }
+    ]
+}

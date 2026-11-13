@@ -1,0 +1,20 @@
+{
+    "social": [
+        {
+            "network" : "linkedin",
+            "href": "https://www.linkedin.com/in/himanshu-pal-308a9118b/"
+        },
+        {
+            "network" : "github",
+            "href": "https://github.com/himanshu-pal0"
+        },
+        // {
+        //     "network" : "leetcode",
+        //     "href": "https://leetcode.com/"
+        // },
+        {
+            "network" : "email",
+            "href": "mailto:himanshupal984@gmail.com"
+        }
+    ]
+}
