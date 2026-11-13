@@ -2,149 +2,111 @@
     "projects" : [
         {
             "image" : "images/projects/portfolio-poster.png",
-            "title": "PoornaSatya",
-            "bodyText": "Explore Comprehensive Nutrition, Ingredients and Comparisons for Every Product You Love.",
+            "title": "Himanshu pal Portfolio",
+            "bodyText": "This is my personal portfolio website built using React and Next.js. It showcases my skills, projects, and experience as a developer. The website is designed to be responsive and user-friendly, providing visitors with an overview of my work and expertise.",
             "links": [
                 {
+                    "text": "GitHub",
+                    "href": "https://github.com/himanshu-pal0"
+                },
+                {
                     "text": "Live",
-                    "href": "https://himanshupal-portfolio.netlify.app/"
+                    "href": "https://mayankagarwal.me"
                 }
             ],
             "tags" : [
-                "React Native",
+                "React",
                 "Portfolio",
                 "JavaScript"
             ]
         },
         {
-            "image" : "images/projects/flapchat_poster.png",
-            "title": "Flap Chat",
-            "bodyText": "- It's a social media app like chat,voice,video call. Technology-React-Native.",
+            "image" : "images/projects/caaring-poster.png",
+            "title": "Flapchat -  Real Time Message App",
+            "bodyText": "FlapChat is a FREE messaging app with amazing features. You can message and calls friends and family,\n send text messages, open a group chat, and so much more!",
             "links": [
                 {
-                    "text": "Live",
-                    "href": "https://uxdlab.us/flapchat-app/"
-                }
-            ],
-            "tags" : [
-                "React-Native",
-                "JavaScript",
-                "TypeScript",
-                "ConnectyCube",
-                "JSON",
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "image" : "images/projects/live_stage_poster.png",
-            "title": "Staffline Pro",
-            "bodyText": "StafflinePro™ transforms recruitment with an intuitive platform that elevates your hiring process. ",
-            "links": [
-                {
-                    "text": "Web",
-                    "href": "https://stafflinepro.com/"
+                    "text": "GitHub"
                 },
                 {
                     "text": "Live",
-                    "href": "https://play.google.com/store/apps/details?id=com.stafflinepro"
-                }
-            ],
-           "tags" : [
-                "React-Native",
-                "React",
-                "JavaScript",
-                "TypeScript",
-                "JSON",
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "image" : "images/projects/therachat_poster.png",
-            "title": "Jobletics Pro",
-            "bodyText": "obleticsPro has Food Service, Hospitality, and Environmental Service staff available at a moments notice.  We recruit everyday, all year experienced staff. We do all the screening for you so you don't have to.",
-            "links": [
-                {
-                    "text": "Web",
-                    "href": "https://www.jobletics.com/"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://play.google.com/store/apps/details?id=com.jobleticspro"
+                    "href": "https://apps.apple.com/mn/app/flap-chat-voice-video-calls/id1525250781"
                 }
             ],
             "tags" : [
-                "React-Native",
-                "React",
-                "JavaScript",
-                "TypeScript",
-                "JSON",
-                "Android",
-                "IOS"
+                "React Native",
+                "Firebase",
+                "Agora.io",
+                "SendGrid"
             ]
         },
         {
-            "image" : "images/projects/mprofit_poster.png",
-            "title": "Centuryply Guru",
-            "bodyText": "Application provide functionality like Attendance Capture , Visit Execution of Grid, Dealer , Influencer , Retailer , Leads . Lead Creation , Task Creation , and also Sales performance of user.",
+            "image" : "images/projects/quiet-hours-poster.jpg",
+            "title": "Staffline Pro App",
+            "bodyText": "provides AI matching platform for job providers and job seekers.\n It helps job seekers to find the right job and helps job providers to find the right candidate.",
             "links": [
                 {
                     "text": "Live",
-                    "href": "https://play.google.com/store/apps/details?id=com.centuryply"
+                    "href": "https://apps.apple.com/in/app/stafflinepro-jobs-find-you/id1306795942"
                 }
             ],
             "tags" : [
-                "React-Native",
-                "React",
-                "Node",
-                "JavaScript",
-                "TypeScript",
-                "JSON",
-                "Android",
-                "IOS"
+                "React Native",
+                "Node JS",
+                "MongoDB"
             ]
         },
         {
-            "image" : "images/projects/mlsu_poster.png",
-            "title": "BluWheelz",
-            "bodyText": "BluWheelz is an EV as a service mobile app, there primary focus is to track the driver, vehicle and provide details to a supervisor and hub managers to availalbity, location and status of his team’s.",
+            "title": "BluWheelz App",
+            "bodyText": "-We run electric fleets for enterprise first- and mid-mile logistics as a monthly service: vehicles, drivers, charging and compliance under one control tower. \n- We help enterprises to reduce their carbon footprint and save costs by switching to electric fleets.",
             "links": [
                 {
-                    "text": "Web",
+                    "text": "Live",
                     "href": "https://bluwheelz.co.in/"
-                },
-                {
-                    "text": "Live",
-                    "href": " https://play.google.com/store/apps/details?id=com.bluewheelz&hl=en"
-                }
-            ],
-           "tags" : [
-                "React-Native",
-                "React",
-                "JavaScript",
-                "TypeScript",
-                "JSON",
-                "Android",
-                "IOS"
-            ]
-        },
-        {
-            "image" : "images/projects/adblue4you_poster.png",
-            "title": "NemaClub+",
-            "bodyText": "This platform is a comprehensive super-app that combines social engagement and healthcare services tailored specifically for mature adults",
-            "links": [
-                {
-                    "text": "Live",
-                    "href": "https://play.google.com/store/apps/details?id=com.jc.nema_club_plus&hl=en"
                 }
             ],
             "tags" : [
-                "Flutter",
-                "JavaScript",
-                "JSON"
+                "React Native",
+                "Node JS",
+                "MongoDB",
+                "MixPanel"
+            ]
+        },
+        {
+            "title": "GreatOtt App",
+            "bodyText": "GreatOTT, we aim to entertain the different age groups with different content.\n We make sure to bring the original OTT content to our audience. We strive to attract, engage, and target different sections of people to entertain,\n inform and educate through multiple devices",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/himanshu-pal0/GreatOtt"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://www.amazon.com/dp/B0B569Q24L?lv=shuf&channelId=500&plpRedirect=mhFallback"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Kotlin",
+                "React",
+                "Node JS",
+                "NetworkBoundResource"
+            ]
+        },
+        {
+            "title": "Mobile AI App",
+            "bodyText": "Full stack framework for building cross-platform mobile AI apps supporting\n LLM real-time / streaming text and chat UIs, image services and natural language to images with multiple models, and image processing.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Gemini",
+                "OpenAI"
             ]
         }
-        
     ]
 }

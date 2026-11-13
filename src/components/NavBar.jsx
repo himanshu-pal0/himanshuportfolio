@@ -1,9 +1,16 @@
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import React, { useEffect, useState, useContext } from 'react';
-import { withRouter } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import styled, { ThemeContext } from 'styled-components';
 import endpoints from '../constants/endpoints';
+import ThemeToggler from './ThemeToggler';
+
+const styles = {
+  logoStyle: {
+    width: 50,
+    height: 40,
+  },
+};
 
 const ExternalNavLink = styled.a`
   color: ${(props) => props.theme.navbarTheme.linkColor};
@@ -23,7 +30,7 @@ const InternalNavLink = styled(NavLink)`
   &::after {
     background-color: ${(props) => props.theme.accentColor};
   }
-  &.navbar__link--active {
+  &.active {
     color: ${(props) => props.theme.navbarTheme.linkActiveColor};
   }
 `;
@@ -46,12 +53,25 @@ const NavBar = () => {
     <Navbar
       fixed="top"
       expand="md"
-      bg="dark"
-      variant="dark"
+      variant={theme.bsPrimaryVariant}
       className="navbar-custom"
       expanded={expanded}
     >
       <Container>
+        {data?.logo && (
+          <Navbar.Brand href="/">
+            <img
+              src={data?.logo?.source}
+              className="d-inline-block align-top"
+              alt="main logo"
+              style={
+                data?.logo?.height && data?.logo?.width
+                  ? { height: data?.logo?.height, width: data?.logo?.width }
+                  : styles.logoStyle
+              }
+            />
+          </Navbar.Brand>
+        )}
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => setExpanded(!expanded)}
@@ -76,8 +96,7 @@ const NavBar = () => {
                 <InternalNavLink
                   key={section.title}
                   onClick={() => setExpanded(false)}
-                  exact={index === 0}
-                  activeClassName="navbar__link--active"
+                  end={index === 0}
                   className="navbar__link"
                   to={section.href}
                   theme={theme}
@@ -86,11 +105,13 @@ const NavBar = () => {
                 </InternalNavLink>
               )))}
           </Nav>
+          <ThemeToggler
+            onClick={() => setExpanded(false)}
+          />
         </Navbar.Collapse>
       </Container>
     </Navbar>
   );
 };
 
-const NavBarWithRouter = withRouter(NavBar);
-export default NavBarWithRouter;
+export default NavBar;

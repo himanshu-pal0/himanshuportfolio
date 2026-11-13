@@ -1,24 +1,13 @@
-import React, { useState, useEffect, useContext } from 'react';
-import { Container, Row, Button } from 'react-bootstrap';
-import { ThemeContext } from 'styled-components';
+import React, { useState, useEffect } from 'react';
+import { Fade } from 'react-awesome-reveal';
 import PropTypes from 'prop-types';
-import Fade from 'react-reveal/Fade';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import ProjectCard from './projects/ProjectCard';
 import FallbackSpinner from './FallbackSpinner';
-
-const styles = {
-  containerStyle: {
-    marginBottom: 25,
-  },
-  showMoreStyle: {
-    margin: 25,
-  },
-};
+import '../css/projects.css';
 
 const Projects = (props) => {
-  const theme = useContext(ThemeContext);
   const { header } = props;
   const [data, setData] = useState(null);
   const [showMore, setShowMore] = useState(false);
@@ -31,35 +20,39 @@ const Projects = (props) => {
       .then((res) => setData(res))
       .catch((err) => err);
   }, []);
-  const numberOfItems = showMore && data ? data.length : 6;
+
+  const numberOfItems = showMore && data ? data.projects.length : 6;
+
   return (
     <>
       <Header title={header} />
-      {data
-        ? (
-          <div className="section-content-container">
-            <Container style={styles.containerStyle}>
-              <Row xs={1} sm={1} md={2} lg={3} className="g-4">
-                {data.projects?.slice(0, numberOfItems).map((project) => (
-                  <Fade key={project.title}>
-                    <ProjectCard project={project} />
-                  </Fade>
-                ))}
-              </Row>
+      {data ? (
+        <div className="section-content-container">
+          <Fade triggerOnce>
+            <div className="bento">
+              {data.projects?.slice(0, numberOfItems).map((project, index) => (
+                <ProjectCard
+                  key={project.title}
+                  project={project}
+                  featured={index === 0}
+                />
+              ))}
+            </div>
+          </Fade>
 
-              {!showMore
-                && (
-                <Button
-                  style={styles.showMoreStyle}
-                  variant={theme.bsSecondaryVariant}
-                  onClick={() => setShowMore(true)}
-                >
-                  show more
-                </Button>
-                )}
-            </Container>
-          </div>
-        ) : <FallbackSpinner /> }
+          {!showMore && data.projects?.length > numberOfItems && (
+            <div className="projects-more">
+              <button
+                type="button"
+                className="btn-pill btn-ghost"
+                onClick={() => setShowMore(true)}
+              >
+                Show more
+              </button>
+            </div>
+          )}
+        </div>
+      ) : <FallbackSpinner /> }
     </>
   );
 };

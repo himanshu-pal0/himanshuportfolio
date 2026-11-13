@@ -1,95 +1,59 @@
-import React, { useContext } from 'react';
-import {
-  Button, Card, Badge, Col,
-} from 'react-bootstrap';
+import React from 'react';
 import PropTypes from 'prop-types';
-import { ThemeContext } from 'styled-components';
 import ReactMarkdown from 'react-markdown';
 
-const styles = {
-  badgeStyle: {
-    paddingLeft: 10,
-    paddingRight: 10,
-    paddingTop: 5,
-    paddingBottom: 5,
-    margin: 5,
-  },
-  cardStyle: {
-    borderRadius: 10,
-  },
-  cardTitleStyle: {
-    fontSize: 24,
-    fontWeight: 700,
-  },
-  cardTextStyle: {
-    textAlign: 'left',
-  },
-  linkStyle: {
-    textDecoration: 'none',
-    padding: 10,
-  },
-  buttonStyle: {
-    margin: 5,
-  },
-};
-
-const ProjectCard = (props) => {
-  const theme = useContext(ThemeContext);
-  const parseBodyText = (text) => <ReactMarkdown children={text} />;
-
-  const { project } = props;
+const ProjectCard = ({ project, featured = false }) => {
+  const parseBodyText = (text) => <ReactMarkdown>{text}</ReactMarkdown>;
 
   return (
-    <Col>
-      <Card
-        style={{
-          ...styles.cardStyle,
-          backgroundColor: theme.cardBackground,
-          borderColor: theme.cardBorderColor,
-        }}
-        text={theme.bsSecondaryVariant}
-      >
-        <Card.Img variant="top" src={project?.image} style={{ height: '270px', width: '100%' }} />
-        <Card.Body>
-          <Card.Title style={styles.cardTitleStyle}>{project.title}</Card.Title>
-          <Card.Text style={styles.cardTextStyle}>
-            {parseBodyText(project.bodyText)}
-          </Card.Text>
-        </Card.Body>
+    <article
+      className={`tile tile--interactive project-card ${
+        featured ? 'span-4 project-card--featured' : 'span-2'
+      }`}
+    >
+      {project?.image && (
+        <div className="project-card__media">
+          <img src={project.image} alt={project.title} />
+        </div>
+      )}
 
-        <Card.Body>
-          {project?.links?.map((link) => (
-            <Button
-              key={link.href}
-              style={styles.buttonStyle}
-              variant={'outline-' + theme.bsSecondaryVariant}
-              onClick={() => window.open(link.href, '_blank')}
-            >
-              {link.text}
-            </Button>
-          ))}
-        </Card.Body>
-        {project.tags && (
-          <Card.Footer style={{ backgroundColor: theme.cardFooterBackground }}>
-            {project.tags.map((tag) => (
-              <Badge
-                key={tag}
-                pill
-                bg={theme.bsSecondaryVariant}
-                text={theme.bsPrimaryVariant}
-                style={styles.badgeStyle}
+      <div className="project-card__body">
+        <h3 className="project-card__title">{project.title}</h3>
+        <div className="project-card__text">{parseBodyText(project.bodyText)}</div>
+      </div>
+
+      <div className="project-card__footer">
+        {project?.links?.length > 0 && (
+          <div className="project-card__links">
+            {project.links.map((link) => (
+              <a
+                key={link.href}
+                className="proj-link"
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {tag}
-              </Badge>
+                {link.text}
+                {' '}
+                ↗
+              </a>
             ))}
-          </Card.Footer>
+          </div>
         )}
-      </Card>
-    </Col>
+        {project?.tags?.length > 0 && (
+          <div className="project-card__tags">
+            {project.tags.map((tag) => (
+              <span key={tag} className="project-tag">{tag}</span>
+            ))}
+          </div>
+        )}
+      </div>
+    </article>
   );
 };
 
 ProjectCard.propTypes = {
+  featured: PropTypes.bool,
   project: PropTypes.shape({
     title: PropTypes.string.isRequired,
     bodyText: PropTypes.string.isRequired,

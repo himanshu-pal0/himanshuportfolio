@@ -1,33 +1,41 @@
 {
     "experiences": [
         {
-            "title": "Software Developer",
+            "title": "Software Engineer",
+            "subtitle": "Markup Design Ltd",
+            "workType": "Full-time",
+            "workDescription": [
+                "Developed and maintained scalable cross-platform mobile applications using React Native and Typescript for iOS and Android. ",
+                "Improved application performance by optimizing component rendering using React.memo, use Callback, and useMemo. ",
+                "Integrated Firebase Cloud Messaging (FCM), third-party SDKs, and APIs to support production application features. ",
+                "Diagnosed and resolved production issues and supported application releases on Google Play Store and Apple App Store."
+            ],
+            "dateText": "02/2025 – 02/2026"
+        },
+        {
+            "title": "Frontend Engineer",
             "subtitle": "Jcentrix Pvt Ltd",
-            "workType": "Full-Time",
+            "workType": "Full Time",
             "workDescription": [
-                "Proficient in both Android and React Native frameworks, demonstrating a deep understanding of their architectures and created various Mobile Apps like Universities, tracking attendance system."
+                "Developed and maintained 5+ scalable React Native and Flutter applications using TypeScript. ",
+                "Developed real-time EV fleet tracking functionality for 500+ drivers, reducing supervisor response time by 40%. ",
+                "Collaborated with product, design, backend, and QA teams in an Agile/Scrum environment.",
+                "Debugged and resolved production issues using Flipper, improving application stability and reliability.",
+                "Developed and maintained Android TV applications using React Native, including platform-specific navigation and performance improvements."
             ],
-            "dateText": "03/2023 – Present"
+            "dateText": "03/2023 – 12/2024"
         },
         {
-            "title": "Jr. Software Developer",
-            "subtitle": "Compunnel Digital",
-            "workType": "Full-Time",
+            "title": "Frontend Developer",
+            "subtitle": "UXDLAB Pvt Ltd",
+            "workType": "Full Time",
             "workDescription": [
-                "Working as a Hybrid Developer employee with the organization. Achieve dedicated projects with the company and communicate with the client directly on project basis.",
-                "Completing the CR points from various clients & provide weekly updates to increase the engagement and long term of the project."
+               "Developed responsive web applications using HTML, CSS, and JavaScript.",
+               "Built mobile application screens and integrated backend REST APIs.",
+               "Developed reusable UI components and improved application usability and performance.",
+               "Built an OTT platform with integrated video playback functionality."
             ],
-            "dateText": "06/2022 – 01/2023"
-        },
-        {
-            "title": "Fronted Developer",
-            "subtitle": "Uxdlab Software Pvt ltd.",
-            "workType": "Full-Time",
-            "workDescription": [
-                "Proficient in both Android and React Native frameworks, demonstrating a deep understanding of their architectures and created various Mobile Apps like Chat,Social,E-commerce.",
-                "Adept at identifying and resolving complex technical challenges, ensuring smooth and efficient application development."
-            ],
-            "dateText": "11/2020 – 06/20222"
+            "dateText": "11/2020 – 01/2023"
         }
     ]
 }

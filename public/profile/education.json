@@ -1,21 +1,37 @@
 {
     "education":[
         {
-            "title": "Jun 2021 - May 2024",
-            "cardTitle": "Bachelor of Computer Applications (BCA)",
-            "cardSubtitle":"Saraswati Institute of Engineering & Technology - Hapur",
+            "title": "Jun 2024 - Jun 2026",
+            "cardTitle": "MCA, Computer Science",
+            "cardSubtitle":"DR. APJ Abdul kalam Technical University, Lucknow",
+            "cardDetailedText": "CGPA - 7.0",
             "icon" : {
-                "src": "images/education/logo.jpg"
+                "src": "images/education/lorem-ipsum.png"
             }
         },
-
         {
-            "title": "Jun 2017 - May 2020",
-            "cardTitle": "Diploma In Computer Applications",
-            "cardSubtitle":"Ingraham Institute - Ghaziabad",
+            "title": "Jun 2021 - Jun 2024",
+            "cardTitle": "BCA, Computer Science",
+            "cardSubtitle":"Choudhary charan singh University, Meerut",
+            "cardDetailedText": "CGPA - 7.2",
             "icon" : {
-                "src": "images/education/logo.jpg"
+                "src": "images/education/lorem-ipsum.png"
             }
+        },
+        {
+            "title": "Jun 2017 - Jun 2020",
+            "cardTitle": "Diploma, Computer Science",
+            "cardSubtitle":"Board of Technical Education Uttar Pradesh, Lucknow",
+            "cardDetailedText": "CGPA - 7.0",
+            "icon" : {
+                "src": "images/education/lorem-ipsum.png"
+            }
+        },
+        {
+            "title": "Apr 2016",
+            "cardTitle": "High School",
+            "cardSubtitle":"vishal international School, greater noida",
+            "cardDetailedText": "Marks - 66%"
         }
     ]
 }

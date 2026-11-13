@@ -5,50 +5,42 @@
             "title": "Languages & Databases",
             "items" : [
      
-                // {
-                //     "icon": "images/skills/java.png",
-                //     "title": "Java"
-                // },
                 {
-                    "icon": "images/skills/flutter.png",
-                    "title": "Flutter"
+                    "icon": "images/skills/react-native.png",
+                    "title": "React Native"
+                },
+                {
+                    "icon": "images/skills/typescript.png",
+                    "title": "TypeScript"
                 },
                 {
                     "icon": "images/skills/js.png",
                     "title": "JavaScript"
                 },
                 {
-                    "icon": "images/skills/typescript.png",
-                    "title": "TypeScript"
+                    "icon": "images/skills/htmlcss.png",
+                    "title": "HTML & CSS"
+                },
+                {
+                    "icon": "images/skills/mysql.png",
+                    "title": "MySQL"
                 }
         ]},
         {
             "title": "Frameworks & Technologies",
             "items" : [
                 {
-                    "icon": "images/skills/swift.png",
-                    "title": "Swift"
+                    "icon": "images/skills/android_new.png",
+                    "title": "Android"
                 },
                 {
                     "icon": "images/skills/react.png",
                     "title": "React"
                 },
                 {
-                    "icon": "images/skills/angular.png",
-                    "title": "Angular Js"
-                },
-                {
                     "icon": "images/skills/nodejs.png",
-                    "title": "Nodejs"
-                },
-                {
-                    "icon": "images/skills/expo.png",
-                    "title": "Expo"
-                },
-                // {
-                //     "icon": "images/skills/kotlin.jpeg",
-                //     "title": "Kotlin"
-                // }
+                    "title": "Next JS"
+                }
             ]
         },
         {
@@ -56,23 +48,15 @@
             "items": [
                 {
                     "icon": "images/skills/android-studio.png",
-                    "title": "Android Studio"
+                    "title": "Android Studio , Xcode"
                 },
                 {
                     "icon": "images/skills/git.png",
                     "title": "Git"
                 },
                 {
-                    "icon": "images/skills/firebase.png",
-                    "title": "Firebase"
-                },
-                {
                     "icon": "images/skills/docker.png",
                     "title": "Docker"
-                }
-                {
-                    "icon": "images/skills/xcode.png",
-                    "title": "Xcode"
                 }
             ]
     }
