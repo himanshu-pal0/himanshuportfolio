@@ -13,7 +13,7 @@ const ProjectCard = ({ project, featured = false }) => {
     >
       {project?.image && (
         <div className="project-card__media">
-          <img src={project.image} alt={project.title} />
+          <img src={project.image} style={{objectFit:'contain' }} alt={project.title} />
         </div>
       )}
 

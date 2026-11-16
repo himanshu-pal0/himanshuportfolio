@@ -1,33 +1,12 @@
 {
     "projects" : [
+       
         {
-            "image" : "images/projects/portfolio-poster.png",
-            "title": "Himanshu pal Portfolio",
-            "bodyText": "This is my personal portfolio website built using React and Next.js. It showcases my skills, projects, and experience as a developer. The website is designed to be responsive and user-friendly, providing visitors with an overview of my work and expertise.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/himanshu-pal0"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://mayankagarwal.me"
-                }
-            ],
-            "tags" : [
-                "React",
-                "Portfolio",
-                "JavaScript"
-            ]
-        },
-        {
-            "image" : "images/projects/caaring-poster.png",
+            "image" : "images/projects/flapchat.jpeg",
             "title": "Flapchat -  Real Time Message App",
             "bodyText": "FlapChat is a FREE messaging app with amazing features. You can message and calls friends and family,\n send text messages, open a group chat, and so much more!",
             "links": [
-                {
-                    "text": "GitHub"
-                },
+
                 {
                     "text": "Live",
                     "href": "https://apps.apple.com/mn/app/flap-chat-voice-video-calls/id1525250781"
@@ -41,7 +20,7 @@
             ]
         },
         {
-            "image" : "images/projects/quiet-hours-poster.jpg",
+            "image" : "images/projects/staffline.jpg",
             "title": "Staffline Pro App",
             "bodyText": "provides AI matching platform for job providers and job seekers.\n It helps job seekers to find the right job and helps job providers to find the right candidate.",
             "links": [
@@ -57,8 +36,25 @@
             ]
         },
         {
+            "image" : "images/projects/icon_backup.png",
+            "title": "Choice Tiffin App",
+            "bodyText": "Tiffin Seva is a meal subscription app for finding local tiffin providers and booking plans.",
+            "links": [
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.tiffin_seva&hl=en_IN"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Node JS",
+                "MongoDB"
+            ]
+        },
+        {
+            "image" : "images/projects/bluwheelz-logo.png",
             "title": "BluWheelz App",
-            "bodyText": "-We run electric fleets for enterprise first- and mid-mile logistics as a monthly service: vehicles, drivers, charging and compliance under one control tower. \n- We help enterprises to reduce their carbon footprint and save costs by switching to electric fleets.",
+            "bodyText": "-We run electric fleets for enterprise first- and mid-mile logistics as a monthly service: vehicles, drivers, charging and compliance under one control tower.\nWe help enterprises to reduce their carbon footprint and save costs by switching to electric fleets.",
             "links": [
                 {
                     "text": "Live",
@@ -73,13 +69,11 @@
             ]
         },
         {
+             "image" : "images/projects/great ott.jpeg",
             "title": "GreatOtt App",
             "bodyText": "GreatOTT, we aim to entertain the different age groups with different content.\n We make sure to bring the original OTT content to our audience. We strive to attract, engage, and target different sections of people to entertain,\n inform and educate through multiple devices",
             "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/himanshu-pal0/GreatOtt"
-                },
+
                 {
                     "text": "Live",
                     "href": "https://www.amazon.com/dp/B0B569Q24L?lv=shuf&channelId=500&plpRedirect=mhFallback"
@@ -94,12 +88,70 @@
             ]
         },
         {
+             "image" : "images/projects/jobletics.png",
+            "title": "JobleticsPro App",
+            "bodyText": "With the JobleticsPro app, You can post your open positions for free. job seekers can accept or decline your offer to work.",
+            "links": [
+               
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.jobleticspro"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Kotlin",
+                "React",
+                "Node JS",
+                "NetworkBoundResource"
+            ]
+        },
+        {
+             "image" : "images/projects/traileron.png",
+            "title": "Trailer on Demand App",
+            "bodyText": "Trailer On-Demand is revolutionizing the trailer rental industry with scan-and-go technology. Rent a trailer\n instantly by scanning a QR code, unlock it with our smart lock system, and get on the road in minutes.",
+            "links": [
+               
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.trailer_rental"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Kotlin",
+                "React",
+                "Node JS",
+                "NetworkBoundResource"
+            ]
+        },
+         {
+             "image" : "images/projects/great ott.jpeg",
+            "title": "Poorna Satya App",
+            "bodyText": "Poorna Satya is India’s first mobile app designed to help\n consumers align their packaged food choices with personal, spiritual, and dietary beliefs.",
+            "links": [
+               
+                {
+                    "text": "Live",
+                    "href": "https://play.google.com/store/apps/details?id=com.poornasatya&hl=hi"
+                }
+            ],
+            "tags" : [
+                "React Native",
+                "Kotlin",
+                "React",
+                "Node JS",
+                "NetworkBoundResource"
+            ]
+        },
+        {
+            "image" : "images/projects/mobile ai.webp",
             "title": "Mobile AI App",
             "bodyText": "Full stack framework for building cross-platform mobile AI apps supporting\n LLM real-time / streaming text and chat UIs, image services and natural language to images with multiple models, and image processing.",
             "links": [
                 {
-                    "text": "GitHub",
-                    "href": "https://github.com/mayankagarwal09/Paginated-App-Feeds-List"
+                    "text": "Live",
+                    "href": ""
                 }
             ],
             "tags" : [

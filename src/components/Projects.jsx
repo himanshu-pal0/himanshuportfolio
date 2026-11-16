@@ -21,7 +21,7 @@ const Projects = (props) => {
       .catch((err) => err);
   }, []);
 
-  const numberOfItems = showMore && data ? data.projects.length : 6;
+  const numberOfItems = showMore && data ? data.projects.length : 10;
 
   return (
     <>

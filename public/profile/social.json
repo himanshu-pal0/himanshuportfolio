@@ -8,10 +8,7 @@
             "network" : "github",
             "href": "https://github.com/himanshu-pal0"
         },
-        // {
-        //     "network" : "leetcode",
-        //     "href": "https://leetcode.com/"
-        // },
+       
         {
             "network" : "email",
             "href": "mailto:himanshupal984@gmail.com"
